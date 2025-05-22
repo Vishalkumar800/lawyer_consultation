@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1008997625417",
+    "project_id": "lawyer-1183b",
+    "storage_bucket": "lawyer-1183b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008997625417:android:0fb5a0291b8c614c551998",
+        "android_client_info": {
+          "package_name": "com.rach.lawyerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008997625417-3lnaklhg7j1l8ujuodl0p5ugfqrpdokr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_sXzpQzIXvI_i76B6EQn7reo_-79iYX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008997625417-3lnaklhg7j1l8ujuodl0p5ugfqrpdokr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

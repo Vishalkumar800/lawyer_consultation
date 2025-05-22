@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Lawyer App</string>
+
+    <!-- login -->
+    <string name="login">Log In</string>
+    <string name="signup">Sign up</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="continue_ji">Continue</string>
+    <string name="did_not_account">Don\'t have an Account?</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="already_account">Already Have an Account?</string>
+    <string name="resend">Resend Verification</string>
+
+    <!-- home -->
+    <string name="call">call</string>
+    <string name="chat">chat</string>
+    <string name="verified">Verified</string>
+    <string name="busy">Busy</string>
+    <string name="see_more">See More</string>
+    <string name="see_less">See Less</string>
+
+
+    <!-- error Message -->
+    <string name="failed_to_load">Failed to load</string>
+    <string name="retry">Retry</string>
+    <string name="lawyer_data_not_found">Lawyer Data Not Found</string>
+
+    <!-- chips -->
+    <string name="filter_chips">Filter</string>
+    <string name="all_chips">All</string>
+    <string name="love_chips">Love</string>
+    <string name="divorce">Divorce</string>
+    <string name="crime">Crime</string>
+    <string name="category1">category 1</string>
+    <string name="category2">category 2</string>
+    <string name="catgory3">category 3</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- wallet -->
+    <string name="available_balance">Available Balance</string>
+    <string name="add_money">Add Money</string>
+    <string name="transaction_history">Transaction History</string>
+
+    <!-- content description -->
+    <string name="search">Search</string>
+    <string name="message">Message</string>
+    <string name="home">Home</string>
+    <string name="arrow_back">Arrow Back</string>
+    <string name="menu">Menu</string>
+    <string name="user_profile">User Profile</string>
+    <string name="lawyer_image">Lawyer Image</string>
+    
+    <!-- lawyer Category -->
+    <string name="criminal_lawyers">Criminal Lawyer</string>
+    <string name="environmental_lawyers">Environmental lawyers</string>
+    <string name="family_lawyers" >Family lawyers</string>
+    <string name="corporate_lawyers" >Corporate lawyers</string>
+    <string name="civil_lawyers" >Civil lawyers</string>
+    <string name="intellectual_property_lawyers" >Intellectual property lawyers</string>
+    <string name="tax_lawyer">Tax lawyer</string>
+    <string name="cyber_lawyers">Cyber lawyers</string>
+    <string name="estate_planning_lawyers">Estate planning lawyers</string>
+    <string name="worker_compensation_lawyers">Worker\'s compensation lawyer</string>
+    <string name="public_interest_lawyers">Public interest lawyers</string>
+    <string name="merger_and_acquisition">Merger and acquisition lawyer</string>
+
+
+    <!-- admin -->
+         <!-- reg form -->
+    <string name="name">Enter name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="lawyer_description">Profile Description</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="state">State</string>
+    <string name="district">District</string>
+    <string name="city">City</string>
+
+
+
+
+</resources>
