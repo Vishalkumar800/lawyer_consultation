@@ -46,3 +46,44 @@ Before running the app, ensure you have:
 ## 🚀 Installation
 
 1. **Clone the Repository**
+```bash
+git clone https://github.com/Vishalkumar800/lawyer_consultation.git
+```
+
+2. **Set Up ZegoCloud**
+   - Log in to the [ZegoCloud Console](https://console.zegocloud.com/)
+   - Create a project and obtain your `appID` and `appSign`
+   - Update these values in `local.properties`
+
+3. **Configure Firebase**
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Enable FCM and download the `google-services.json` file
+   - Place it in the `app/` directory
+    
+4. **Build the Project**
+   - Open the project in Android Studio
+   - Sync the project with Gradle
+   - Build and run on an emulator or physical device (API 21+)
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## 🙌 Acknowledgments
+
+- **ZegoCloud** for powering voice and video calls
+- **Jetpack Compose** for modern Android UI
+- **Firebase** for reliable push notifications
+- **Contributors** and the open-source community
+
+## 📞 Contact
+
+For issues, suggestions, or queries:
+- GitHub: [Vishalkumar800](https://github.com/Vishalkumar800)
+- Email: statusb130@gmail.com
+- Linkedn: [Vishal]()
+
+---
+
+⭐ **Star this repository** if you find it helpful! We appreciate your support and feedback.
