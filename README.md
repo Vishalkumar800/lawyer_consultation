@@ -1,9 +1,12 @@
 # Lawyer Consultation App
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple.svg)](https://kotlinlang.org/)
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-1.8.0-brightgreen.svg)](https://developer.android.com/jetpack/compose)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-purple.svg)](https://kotlinlang.org/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-2024.04.01-brightgreen.svg)](https://developer.android.com/jetpack/compose)
 [![ZegoCloud](https://img.shields.io/badge/ZegoCloud-Voice%20%26%20Video-orange.svg)](https://www.zegocloud.com/)
+[![Firebase Auth](https://img.shields.io/badge/Firebase-Auth-yellowgreen.svg)](https://firebase.google.com/docs/auth)
+[![Dagger Hilt](https://img.shields.io/badge/Dagger-Hilt-red.svg)](https://dagger.dev/hilt/)
+
 
 Welcome to the **Lawyer Consultation App**, a modern Android application designed to connect users with legal professionals for expert advice. Built with **Kotlin** and **Jetpack Compose**, this app offers seamless search, filtering, and real-time communication via voice and video calls powered by **ZegoCloud**.
 Welcome to the Lawyer Consultation App, a modern Android application designed to connect users with legal professionals for expert advice. Built with Kotlin and Jetpack Compose, this app offers seamless search, filtering, and real-time communication via voice and video calls powered by ZegoCloud.
