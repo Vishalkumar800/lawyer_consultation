@@ -108,7 +108,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For issues, suggestions, or queries:
 - GitHub: [Vishalkumar800](https://github.com/Vishalkumar800)
-- Email: statusb130@gmail.com
+- Email: vishal4744168@gmail.com
 - Linkedn: [Vishal]()
 
 ---
