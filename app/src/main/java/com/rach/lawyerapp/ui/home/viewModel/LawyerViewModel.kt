@@ -67,9 +67,11 @@ class LawyerViewModel @Inject constructor(
         searchJob?.cancel()
 
         viewModelScope.launch {
+            Log.d("LawyerViewModel", "Fetching lawyers...")
             _uiState.value = _uiState.value.copy(isLoading = true, errorMessage = null)
             getLawyerUseCases().collectAndHandle(
                 onError = { error ->
+                    Log.e("LawyerViewModel", "Error fetching lawyers: ${error?.localizedMessage}", error)
                     _uiState.value = _uiState.value.copy(
                         isLoading = false,
                         errorMessage = error?.localizedMessage ?: "Unknown Error"

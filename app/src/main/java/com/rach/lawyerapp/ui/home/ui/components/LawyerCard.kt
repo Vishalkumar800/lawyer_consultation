@@ -24,6 +24,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
@@ -77,6 +78,7 @@ fun LawyerCard(
                 contentDescription = lawyerModel.name,
                 modifier = Modifier
                     .size(110.dp)
+                    .clip(CircleShape)
                     .border(width = 1.dp, color = Color.Yellow, shape = CircleShape),
                 contentScale = ContentScale.Crop,
                 error = painterResource(R.drawable.testing_avatar),

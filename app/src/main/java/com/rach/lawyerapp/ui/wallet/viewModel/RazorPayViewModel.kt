@@ -11,7 +11,6 @@ import com.rach.lawyerapp.ui.wallet.walletBalance.useCases.WalletBalanceUseCases
 import com.rach.lawyerapp.utils.K
 import com.rach.lawyerapp.utils.Response
 import com.razorpay.Checkout
-import com.razorpay.PaymentResultListener
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -26,7 +25,7 @@ class RazorPayViewModel @Inject constructor(
     private val addMoneyUseCases: AddMoneyUseCases,
     private val deductMoneyUseCases: DeductMoneyUseCases,
     private val getBalanceUseCases: WalletBalanceUseCases
-) : ViewModel(), PaymentResultListener {
+) : ViewModel() {
 
     private val _walletUiState = MutableStateFlow(WalletUiState())
     val walletUiState: StateFlow<WalletUiState> = _walletUiState.asStateFlow()
@@ -97,7 +96,7 @@ class RazorPayViewModel @Inject constructor(
 
     }
 
-    override fun onPaymentSuccess(razorpayId: String?) {
+    fun onPaymentSuccess(razorpayId: String?) {
         Log.d("RazorPayVM", "Payment successful, Razorpay ID: $razorpayId")
         viewModelScope.launch {
             try {
@@ -123,7 +122,7 @@ class RazorPayViewModel @Inject constructor(
     }
 
 
-    override fun onPaymentError(errorCode: Int, response: String?) {
+    fun onPaymentError(errorCode: Int, response: String?) {
         val errorMessage = when (errorCode) {
             Checkout.PAYMENT_CANCELED -> "Payment cancelled by user"
             Checkout.NETWORK_ERROR -> "Network error during payment"

@@ -20,15 +20,17 @@ import com.rach.lawyerapp.appPermissions.ZegoCallService
 import com.rach.lawyerapp.ui.theme.LawyerAppTheme
 import com.rach.lawyerapp.ui.wallet.viewModel.RazorPayViewModel
 import com.rach.lawyerapp.utils.K
+import com.razorpay.PaymentResultListener
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import timber.log.Timber
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class MainActivity : FragmentActivity() {
+class MainActivity : FragmentActivity(),PaymentResultListener {
 
-    private lateinit var razorPayViewModel: RazorPayViewModel
+
+    lateinit var razorPayViewModel: RazorPayViewModel
 
     @Inject
     lateinit var zegoCallService: ZegoCallService
@@ -75,6 +77,13 @@ class MainActivity : FragmentActivity() {
     override fun onDestroy() {
         super.onDestroy()
         zegoCallService.unInitialize()
+    }
+
+    override fun onPaymentSuccess(p0: String?) {
+       razorPayViewModel.onPaymentSuccess(p0)
+    }
+    override fun onPaymentError(p0: Int, p1: String?) {
+        razorPayViewModel.onPaymentError(p0,p1)
     }
 
 }

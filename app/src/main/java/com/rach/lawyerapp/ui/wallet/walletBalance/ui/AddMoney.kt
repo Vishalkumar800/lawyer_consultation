@@ -39,6 +39,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.rach.lawyerapp.AppPreview
+import com.rach.lawyerapp.MainActivity
 import com.rach.lawyerapp.R
 import com.rach.lawyerapp.ui.components.LoadingView
 import com.rach.lawyerapp.ui.home.data.dataSource.DisCountDataSource
@@ -104,8 +105,7 @@ fun AddMoneyScreens(
             CustomOutlinedButton(
                 label = R.string.add_money,
                 onClick = {
-                    viewModel.startPayment(activity as Activity)
-
+                    viewModel.startPayment(activity as MainActivity)
                 },
                 modifier = Modifier.fillMaxWidth(),
                 shape = MaterialTheme.shapes.large,
