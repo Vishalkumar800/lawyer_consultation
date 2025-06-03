@@ -6,6 +6,8 @@
 [![ZegoCloud](https://img.shields.io/badge/ZegoCloud-Voice%20%26%20Video-orange.svg)](https://www.zegocloud.com/)
 [![Firebase Auth](https://img.shields.io/badge/Firebase-Auth-yellowgreen.svg)](https://firebase.google.com/docs/auth)
 [![Dagger Hilt](https://img.shields.io/badge/Dagger-Hilt-red.svg)](https://dagger.dev/hilt/)
+[![Razorpay](https://img.shields.io/badge/Razorpay-1.6.41-blue.svg)](https://github.com/razorpay/razorpay-android)
+
 
 
 Welcome to the **Lawyer Consultation App**, a modern Android application designed to connect users with legal professionals for expert advice. Built with **Kotlin** and **Jetpack Compose**, this app offers seamless search, filtering, and real-time communication via voice and video calls powered by **ZegoCloud**.
