@@ -34,6 +34,22 @@ Welcome to the Lawyer Consultation App, a modern Android application designed to
 |-------------|----------------|
 | ![Home](https://github.com/Vishalkumar800/lawyer_consultation/blob/master/app/src/main/assets/image3.jpg) | ![Profile](https://github.com/Vishalkumar800/lawyer_consultation/blob/master/app/src/main/assets/image4.jpg) |
 
+## 🎥 Demo Videos
+
+### 🔐 1. Authentication Flow  
+📂 [Watch Authentication Demo](assets/auth.mp4)
+
+---
+
+### 🎨 2. UI Preview (Jetpack Compose)  
+📂 [Watch UI Demo](assets/ui.mp4)
+
+---
+
+### 📞 3. Calling Feature (ZegoCloud)  
+📂 [Watch Calling Demo](assets/calling.mp4)
+
+
 
 ## 🛠️ Tech Stack
 - **Language**: Kotlin
