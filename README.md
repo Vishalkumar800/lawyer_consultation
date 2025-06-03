@@ -29,6 +29,11 @@ Welcome to the Lawyer Consultation App, a modern Android application designed to
 
 - **Error Handling**: *Robust loading states and error messages for a reliable user experience.*
 
+## 📸 Screenshots
+| Home Screen | Lawyer Profile |
+|-------------|----------------|
+| ![Home](https://github.com/Vishalkumar800/lawyer_consultation/blob/master/app/src/main/assets/image3.jpg) | ![Profile](https://github.com/Vishalkumar800/lawyer_consultation/blob/master/app/src/main/assets/image4.jpg) |
+
 
 ## 🛠️ Tech Stack
 - **Language**: Kotlin
