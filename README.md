@@ -37,17 +37,18 @@ Welcome to the Lawyer Consultation App, a modern Android application designed to
 ## 🎥 Demo Videos
 
 ### 🔐 1. Authentication Flow  
-📂 [Watch Authentication Demo](https://youtu.be/1Y9eBehsWT0?si=ICxpU9AZFtdYyETc)
+https://github.com/user-attachments/assets/3357592d-7cc7-4ef3-8ec6-7e522b74a18f
 
 ---
 
-### 🎨 2. UI Preview (Jetpack Compose)  
-📂 [Watch UI Demo](https://youtu.be/llQ_Kzk0HKg?si=vExq3AGsALPJxBC2)
+### 🎨 2. UI Preview Youtube Video (Jetpack Compose)  
+[![UI Preview](https://img.youtube.com/vi/llQ_Kzk0HKg/0.jpg)](https://youtu.be/llQ_Kzk0HKg?si=vExq3AGsALPJxBC2)
 
 ---
 
-### 📞 3. Calling Feature (ZegoCloud)  
-📂 [Watch Calling Demo](https://youtube.com/shorts/uiDz9tMJu4Y?si=pg6IB42LzcuEARy_)
+### 📞 3. Calling Feature (ZegoCloud)  Youtube Video
+[![Calling Feature](https://img.youtube.com/vi/uiDz9tMJu4Y/0.jpg)](https://https://youtube.com/shorts/uiDz9tMJu4Y?si=pg6IB42LzcuEARy_)
+
 
 
 
